@@ -10,13 +10,13 @@ build-type:          Simple
 description:         A library of commonly used statistical functions
 maintainer:          bash@chordify.net
 homepage:            https://github.com/haas/hstats
-cabal-version:       >=1.6
+cabal-version:       >=1.8
 source-repository    head
   type:                git
   location:            git@github.com:haas/hstats.git
 
 library
-  build-depends:       base >= 3.0 && < 4.9
+  build-depends:       base >= 3.0 && < 9.4
   hs-source-dirs:      src
   exposed-Modules:     Numeric.Statistics
   extensions:          BangPatterns
